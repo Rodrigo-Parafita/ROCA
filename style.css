@@ -1,0 +1,260 @@
+*::after
+*::before
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(img/fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align:center;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+.imagen{
+    max-width:100%;
+}
+
+a{
+    cursor:pointer;
+}
+.alerta{
+    font-weight:700;
+}
+.card {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-size: medium;
+    margin: 1% auto;
+}
+
+img {
+    text-align: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+.tituloprincipal{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+   font-size: 250%;
+}
+
+.card img {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    background-position: center;
+    height: 50%;
+    width: 100%;
+    transition: all .3s;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    border: 1px solid;
+}
+
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+    
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+} 
+
+.modal-content{
+    background-color: #E3D8D6;
+}
+.parrafo{
+    font-weight: 900;
+    font-style: italic;
+}
+#precioTotal{
+    color: rgb(0, 0, 0);
+    margin:0;
+    padding:0;
+   
+}
+a{
+    text-decoration: none;
+}
+.boton{
+    opacity:0;
+}
+
+.headerprincipal{
+    position:relative;
+    border: 0px solid;
+    padding: 5px;
+    margin: 0px;
+    color: black ;
+}
+header{
+    position:relative;
+    border: 0px solid;
+    padding: 5px;
+    margin: 0px;
+}
+
+.tituloproductos{
+    text-decoration:underline;
+    font-size: 120%;
+}
+.cuentas{
+    font-size: 120%;
+    text-align:end;
+    transform: translateY(-80%)
+    
+}
+
+
+.ofertas{
+    text-decoration:underline;
+    font-size: 40px;
+    text-align:center;
+        color: rgb(3, 3, 3);
+        
+}
+.ofertas:hover{
+    background-color:rgb(252, 252, 249);
+    color:black;}
+
+.destacados{
+    text-decoration:underline;
+    font-size: 40px;
+    text-align:center;
+    color: white;
+        
+}
+.destacados:hover{
+    background-color:rgb(255, 255, 252);
+    color:black;}
+
+
+
+
+
+.align-items-start{
+    
+    background-image: url(img/footer.jpeg);
+    background-size: cover;
+}
+
+.tiendades{
+
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:underline;
+    
+    
+        
+    }
+    
+    
+    .buscar{
+        
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+    }
+    .nav-item{
+        margin:10px;
+    }
+    .bg-body-tertiary{
+        position: static;
+    }
+    .carousel-inner{
+        color: white;
+        border-color: aliceblue;
+        border: solid;
+    }
+    footer{
+        text-align: center;
+        text-decoration: none;
+        font-size: 100%;   
+        color: white;
+        width: 100%;
+        height: 25px;
+    }
+    /* Contenedor general y reset de margin y padding */
+    .expandir * {
+    margin: 0;
+    padding: 0;
+    }
+    .expandir {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:normal;
+    margin:10px auto 15px;
+    height:80px;
+    width:530px;
+    }
+    /* Las imágenes irán en forma de lista */
+    .expandir ul {
+    padding-top:10px;
+    margin-left:10px;
+    }
+    /* Se hacen flotar los elementos para que queden en línea y se elimina el estilo que podría haber predefinido para listas */
+    .expandir ul li {
+    float:left;
+    list-style-type:none;
+    }
+    /* Anulamos estilo predifinido para enlaces en listas */
+    .expandir ul li a {
+    text-decoration:none;
+    }
+    /* Estilo de cada imagen en situación inicial y transición suave */
+    .expandir ul li a img {
+    width:32px; /* Ancho inicial imagénes. 50% real */
+    height:32px; /* Alto inicial imagénes. 50% real */
+    border:none;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    }
+    /* El texto que acompaña a las imágenes no se ve inicialmente */
+    .expandir ul li a span {
+    display:none;
+    }
+    /* Mostramos el texto al hacer hover */
+    .expandir ul li:hover a span {
+    display:block;
+    font-size:14px;
+    text-align:center;
+    color:white;
+    }
+    /* Agrandamos la imagen al hacer hover */
+    .expandir ul li:hover a img {
+    width:64px;
+    height:64px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    }
+    #carritoContenedor{
+        color: black;
+    }
+    #redes{
+        text-decoration: underline;
+       
+    }
